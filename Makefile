@@ -1,11 +1,11 @@
 # MAKEFILE
 #
 # @author      Nicola Asuni <info@tecnick.com>
-# @link        https://github.com/advancedlogic/GoOse
+# @link        https://github.com/Driaan/GoOse
 #
 # This file is intended to be executed in a Linux-compatible system.
 # It also assumes that the project has been cloned in the right path under GOPATH:
-# $GOPATH/src/github.com/advancedlogic/GoOse
+# $GOPATH/src/github.com/Driaan/GoOse
 #
 # ------------------------------------------------------------------------------
 
