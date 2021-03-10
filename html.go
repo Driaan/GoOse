@@ -25,8 +25,8 @@ func (hr htmlrequester) fetchHTML(url string) (string, error) {
 	client := resty.New()
 	client.SetTimeout(hr.config.timeout)
 	resp, err := client.R().
-		SetHeader("Content-Type", "text/html").
-		SetHeader("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.91 Safari/534.30").
+		SetHeader("Content-Type", "application/json")..
+		SetHeader("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36").
 		Get(url)
 
 	if err != nil {
